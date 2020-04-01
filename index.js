@@ -1,10 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const axios = require("axios")
+const axios = require("axios");
 
-const writeFileAsync = util.promisify(fs.writeFile);
-const url = `https://api.github.com/users/${username}/repos`;
+// const writeFileAsync = util.promisify(fs.writeFile);
+// const url = `https://api.github.com/users/${username}/repos`;
 
 
 function promptUser() {
@@ -70,20 +70,25 @@ function promptUser() {
 // </html>`;
 // }
 
-function init() {
+async function init() {
   console.log("hi");
 
-  promptUser()
-    .then((answers) => {
-        console.log(answers);
+  try {
+ 
+     const { githubusername } = await promptUser();
+        console.log(githubusername);
         const { data } = await axios.get(
           `https://api.github.com/users/${githubusername}/repos`
         );
     //   return writeFileAsync("index.html", generateHTML(answers));
-    }).then(() => {
+  
+        console.log(data);
         console.log("retreived github api");
     //   console.log("Successfully wrote to index.html");
-    }).catch(error => console.log(error));
+    }
+     catch (err) {
+      console.log(err);
+    }
 }
 
 init();
