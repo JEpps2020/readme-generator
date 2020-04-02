@@ -1,2 +1,1 @@
-# readme-generator
-This is homework 7.
+[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
