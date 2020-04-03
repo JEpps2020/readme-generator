@@ -63,14 +63,14 @@ async function init() {
     //   return writeFileAsync("index.html", generateHTML(answers));
           console.log( `https://api.github.com/users/${githubusername}/repos`)
         //console.log(data);
-        //repo name
+        repo name
           var myobj={
             name:data[0].name,
             title:githubusername.title
           }
         const html = generateHTML(myobj);
 
-        return writeFileAsync("readme.md", html);
+        return writeFileAsync("readme.md", data);
 
         // console.log(data[0].name);
         // repo link
@@ -85,7 +85,7 @@ async function init() {
         console.log(data[0].owner.avatar_url);
 
         //console.log(data[0]);
-        console.log("retreived github api");
+        // console.log("retreived github api");
     //   console.log("Successfully wrote to index.html");
     }
      catch (err) {
