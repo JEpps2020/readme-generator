@@ -53,8 +53,8 @@ async function init() {
   console.log("hi");
   try {
  
-     const { githubusername } = await promptUser();
-        console.log(githubusername);
+     const { githubusername, title } = await promptUser();
+        console.log(title);
         const { data } = await axios.get(
           `https://api.github.com/users/${githubusername}/repos`
         )
@@ -63,7 +63,7 @@ async function init() {
     //   return writeFileAsync("index.html", generateHTML(answers));
           console.log( `https://api.github.com/users/${githubusername}/repos`)
         //console.log(data);
-        repo name
+       // repo name
           var myobj={
             name:data[0].name,
             title:githubusername.title
