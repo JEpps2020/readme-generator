@@ -1,4 +1,4 @@
-# ReadmeGenerator
+# ReadmeGenerator ![Image of Jasmine's Badge](https://img.shields.io/badge/Readme--Generator-V1.0-blue)
 
 Vivian
 
@@ -18,11 +18,11 @@ b
 
 ## Usage
 
-
+c
 
 ## License
 
-c
+Apache License 2.0,GNU
 
 ## Contributing
 

@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const axios = require("axios");
+var image = "![Image of Jasmine's Badge](https://img.shields.io/badge/Readme--Generator-V1.0-blue)"
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -38,9 +39,10 @@ function promptUser() {
       },
 
       {
-        type: "input",
+        type: "checkbox",
+        message: "What licenses do you need?",
         name: "licenses",
-        message: "What licenses are needed?"
+        choices: ["Apache License 2.0","GNU","MIT"]
       },
 
       {
@@ -79,7 +81,7 @@ init();
 function generateReadme(responseobj){
     //return 
     let readmeData= 
-    "# ReadmeGenerator" + "\n\n" +
+    "# ReadmeGenerator " + image + "\n\n" +
     
     responseobj.title + "\n\n" +
 
