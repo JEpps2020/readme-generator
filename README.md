@@ -1,52 +1,37 @@
+# ReadmeGenerator
 
-#Tab;e pf Contents
+Vivian
 
-- [Heading](#Title)
+## Description
 
-- [Heading](#Github)
-  
-- [Heading](#heading-2)
- 
+a
+
+## Table of Contents 
+
+* [Installation](#installation) 
+* [Usage](#usage) 
+* [Credits](#credits) 
+* [License](#license) 
+## Installation
+
+b
+
+## Usage
 
 
-## Title
 
-> This is a fixture to test heading levels
+## License
 
-<!-- toc -->
+c
 
-## Github
+## Contributing
 
-This is an h1 heading
+d
 
-### Sub-heading
+## Tests
 
-This is an h2 heading
+e
 
-#### Sub-sub-heading
+### Github Username
 
-This is an h3 heading
-
-## Heading
-
-This is an h1 heading
-
-### Sub-heading
-
-This is an h2 heading
-
-#### Sub-sub-heading
-
-This is an h3 heading
-
-## Heading
-
-This is an h1 heading
-
-### Sub-heading
-
-This is an h2 heading
-
-#### Sub-sub-heading
-
-This is an h3 heading
+JEpps2020
