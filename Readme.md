@@ -1,36 +1,38 @@
 # ReadmeGenerator ![Image of Jasmine's Badge](https://img.shields.io/badge/Readme--Generator-V1.0-blue)
 
-Vivian
+Sample
 
 ## Description
 
-a
+A
 
 ## Table of Contents 
 
+* [Description](#description) 
 * [Installation](#installation) 
 * [Usage](#usage) 
-* [Credits](#credits) 
+* [Contributing](#contributing) 
 * [License](#license) 
+* [Tests](#tests) 
 ## Installation
 
-b
+B
 
 ## Usage
 
-c
+C
 
 ## License
 
-Apache License 2.0,GNU
+Apache License 2.0,GNU,MIT
 
 ## Contributing
 
-d
+Angela Stevenson
 
 ## Tests
 
-e
+everything
 
 ### Github Username
 

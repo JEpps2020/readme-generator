@@ -59,11 +59,7 @@ function promptUser() {
     ]);
   }
 
-//   function generateHTML(answers) {
-//     return `${answers.name}
-//   `;
-//   }
-  
+ 
   async function init() {
     console.log("hi");
     try {
@@ -91,11 +87,12 @@ function generateReadme(responseobj){
 
     "## Table of Contents \n\n"+
 
+"* [Description](#description) \n"+
 "* [Installation](#installation) \n"+
 "* [Usage](#usage) \n" +
-"* [Credits](#credits) \n"+
+"* [Contributing](#contributing) \n"+
 "* [License](#license) \n"+
-
+"* [Tests](#tests) \n"+
 
     "## Installation" + "\n\n" +
 
@@ -122,7 +119,5 @@ function generateReadme(responseobj){
     responseobj.githubusername;
     // responseobj.description+responseobj.installation+responseobj.usage+ responseobj.licenses+responseobj.contributing+responseobj.tests+responseobj.githubusername;
     return readmeData;
-//     "
-//     # 
 
 };
