@@ -1,10 +1,10 @@
 # ReadmeGenerator ![Image of Jasmine's Badge](https://img.shields.io/badge/Readme--Generator-V1.0-blue)
 
-My Very First Readme Generator title.
+My very first Readme Generator!
 
 ## Description
 
-This homework assignment allows me to generate a readme file based upon inputs from the user.
+This is an example of how to create a readme generator.
 
 ## Table of Contents 
 
@@ -16,11 +16,11 @@ This homework assignment allows me to generate a readme file based upon inputs f
 * [Tests](#tests) 
 ## Installation
 
-axios
+Nothing at this time.
 
 ## Usage
 
-Basic instructions are provided here.
+Instructions can be placed here.
 
 ## License
 
